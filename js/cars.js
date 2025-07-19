@@ -132,10 +132,10 @@ function displayCars(filter = 'all') {
                     ₹${car.price.toLocaleString()}/day <span>or ₹${car.perKm}/km</span>
                 </div>
                 <div class="car-actions">
-                    <a href="tel:+919876543210" class="btn btn-outline-primary">
+                    <a href="tel:+919503598098" class="btn btn-outline-primary">
                         <i class="fas fa-phone-alt"></i> Call
                     </a>
-                    <a href="https://wa.me/919876543210?text=I'm interested in booking ${car.name}" class="btn btn-primary">
+                    <a href="https://wa.me/919503598098?text=I'm interested in booking ${car.name}" class="btn btn-primary">
                         <i class="fab fa-whatsapp"></i> Book
                     </a>
                 </div>
