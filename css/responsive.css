@@ -1,0 +1,157 @@
+/* Responsive Styles */
+@media (max-width: 1199.98px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .section-header h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: var(--white);
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+    
+    .nav-link {
+        padding: 10px 0 !important;
+    }
+    
+    .nav-link.active::after {
+        display: none;
+    }
+    
+    .cta-nav {
+        margin-left: 0;
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .about-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section {
+        min-height: 500px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons .btn {
+        min-width: 150px;
+        font-size: 0.9rem;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-header p {
+        font-size: 1rem;
+    }
+    
+    .fleet-filter {
+        gap: 5px;
+    }
+    
+    .filter-btn {
+        padding: 5px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-item i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer-links,
+    .footer-contact {
+        margin-top: 30px;
+    }
+    
+    .footer-payments {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        right: 20px;
+        bottom: 20px;
+    }
+    
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        right: 20px;
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .fleet-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial-author {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .testimonial-author img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
